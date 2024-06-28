@@ -1,0 +1,95 @@
+* 
+{
+    padding: -600;
+    margin: 0;
+
+}
+body
+{
+    background-image: url(resources/background.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    
+}
+
+
+
+/* Here we set our menu position on the page & little custom edits */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:8px;
+    padding-left: 1%;
+    padding-right: 1%;
+    color: rgb(5, 49, 209);
+    font-weight: bold;
+    font-size: 10px;
+    transition: .8s;
+    border-radius: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+/* here we custom edit/markup our first part of the logo!. remember we created a class "logo" */
+.Logo{
+    color:rgba(0, 136, 255, 0.952);
+    font-size: 28px;
+    cursor: pointer;
+    box-shadow: 3px 2px 2px rgb(149, 41, 226);
+    display: flex;
+}
+
+/* down below we also Custom markupour text the second part of our logo since we  surrounded it with a pair of span tags  */
+span{
+    color:rgba(239, 187, 67, 0.901);
+    cursor: pointer;
+    box-shadow: 1px 1px 2px rgb(3, 81, 177);
+    display: flex;
+    
+}
+/* we edit our Line-Tags for list,unorderlist for menu bar like giving a badding/space in b/w. */
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    
+
+}
+/* Here we custom edit  our menu for list,unorderlist for menu bar like color& font*/
+nav ul li a{
+    color:rgb(24, 23, 23);
+    text-decoration: none;
+    font-weight:bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    box-shadow: 1px 2px 1px rgb(205, 181, 226);
+    transition: 2s ease-in-out;
+    
+    
+
+}
+
+/* In here we edit our hover on the Menu-bar like hover color & cursor pointer! */
+nav ul li a:hover{
+    color: rgb(212, 46, 132);
+    transition: .4s;
+    transform: scale(1.3);
+    cursor: pointer;
+   
+}
+/* Here we play with custom footer alll rights reserved!*/
+footer {
+    background: transparent;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: right ;
+    padding-right: 6%;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 10;
+    
+}
